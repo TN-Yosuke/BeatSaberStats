@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(158, 157, 157);
+}
+
+
+
+html {
+  background:white;
+}
+
+.title {
+  font-size: 10vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 100px;
+  font-weight: lighter;
+}
+
+form {
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#playerId {
+  width: 10%;
+  min-width: 300px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+              -20px -20px 60px #ffffff;
+  border: none;
+  height: 30px;
+  border-radius: 50px;
+  outline: none;
+  padding: 10px;
+  transition: .2s;
+  font-size: 20px;
+}
+
+#playerId:active {
+  background: #e0e0e0;
+}
+
+#buttonIn {
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  outline: none;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+              -20px -20px 60px #ffffff;
+  border: none;  border-radius: 50%;
+  transition: .3s;
+}
+
+#buttonIn:hover {
+  width: 50px;
+  height: 50px;
+}
+
+.playerStats {
+  margin-right: 20px;
+  width: 40%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  margin-top: 5vh;
+  background: #e0e5e6;
+  border-radius: 10px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+              -20px -20px 60px #ffffff;
+}
+
+.inner {
+  margin-left: 20px;
+}
+
+#name {
+  padding-bottom: 10px;
+}
+
+#rank {
+  padding-bottom: 5px;
+}
+
+#pp {
+  padding-bottom: 5px;
+}
+
+#acc {
+  padding-bottom: 5px;
+}
+
+.width {
+  margin-top: 5vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.playerStats img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.scoreStats {
+  margin-left: 20px;
+  width: 40%;
+  height: auto;
+  padding: 20px;
+  margin-top: 5vh;
+  background: #e0e5e6;
+  border-radius: 10px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+              -20px -20px 60px #ffffff;
+}
+
+#totalScore {
+  padding-bottom: 5px;
+}
+
+#totalCount {
+  padding-bottom: 5px;
+}
+
+#rankScore {
+  padding-bottom: 5px;
+}
+
+#rankCount {
+  padding-bottom: 5px;
+}
+
+.innerStats {
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .width {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .scoreStats {
+    margin-left: 0px;
+    width: 80%;
+  }
+
+  .playerStats {
+    margin-right: 0px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .playerStats {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .playerStats img {
+    padding-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .title {
+ margin-left: auto;
+ margin-right: auto;
+ width: 90%;
+
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .title {
+    font-size: 15vw;
+  }
+}
