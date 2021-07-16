@@ -1,14 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: rgb(158, 157, 157);
 }
 
-
-
 html {
-  background:white;
+  background: #252525;
+}
+
+body {
+    height: 110vh;
+
 }
 
 .title {
@@ -35,10 +38,10 @@ form {
 #playerId {
   width: 10%;
   min-width: 300px;
-  background: #e0e0e0;
-  box-shadow:  20px 20px 60px #bebebe,
-              -20px -20px 60px #ffffff;
-  border: none;
+  background: #252525;
+  box-shadow:  10px 10px 40px #2b2b2b,
+              -10px -10px 40px #2b2b2b;
+  border: 1px solid black;
   height: 30px;
   border-radius: 50px;
   outline: none;
@@ -48,7 +51,7 @@ form {
 }
 
 #playerId:active {
-  background: #e0e0e0;
+  background: #252525;
 }
 
 #buttonIn {
@@ -56,9 +59,9 @@ form {
   width: 40px;
   height: 40px;
   outline: none;
-  background: #e0e0e0;
-  box-shadow:  20px 20px 60px #bebebe,
-              -20px -20px 60px #ffffff;
+  background: #252525;
+  box-shadow:  10px 10px 40px #2b2b2b,
+              -10px -10px 40px #2b2b2b;
   border: none;  border-radius: 50%;
   transition: .3s;
 }
@@ -75,13 +78,12 @@ form {
   padding: 20px;
   display: flex;
   margin-top: 5vh;
-  background: #e0e5e6;
+  background: #252525;
   border-radius: 10px;
-  border-radius: 50px;
-  background: #e0e0e0;
-  box-shadow:  20px 20px 60px #bebebe,
-              -20px -20px 60px #ffffff;
+  box-shadow:  10px 10px 40px #2b2b2b,
+              -10px -10px 40px #2b2b2b;
 }
+
 
 .inner {
   margin-left: 20px;
@@ -121,12 +123,11 @@ form {
   height: auto;
   padding: 20px;
   margin-top: 5vh;
-  background: #e0e5e6;
   border-radius: 10px;
-  border-radius: 50px;
-  background: #e0e0e0;
-  box-shadow:  20px 20px 60px #bebebe,
-              -20px -20px 60px #ffffff;
+  background: #252525;
+  box-shadow:  10px 10px 40px #2b2b2b,
+              -10px -10px 40px #2b2b2b;
+
 }
 
 #totalScore {
