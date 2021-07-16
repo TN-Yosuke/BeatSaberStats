@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width=1.0">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h1 class="title">Beat Saber Stats</h1>
+    <form type="get">
+      <input placeholder="Player ID" id="playerId" ype="text">
+      <div>
+        <input type="button" value="🔍" id="buttonIn" onClick="getPlayerInfo()">
+      </div>
+    </form>
+    <div class="width">
+      <div class="playerStats">
+        <img id="avatar" src="" alt="">
+        <div class="inner">
+          <h1 id="name"></h1>
+          <h2 id="rank"></h2>
+          <h2 id="acc"></h2>
+          <h2 id="pp"></h2>
+          <h2 id="country"></h2>
+        </div>
+      </div>
+      <div class="scoreStats">
+        <div class="innerStats">
+          <h2 id="totalScore"></h2>
+          <h2 id="totalCount"></h2>
+          <h2 id="rankScore"></h2>
+          <h2 id="rankCount"></h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
